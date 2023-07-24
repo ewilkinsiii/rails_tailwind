@@ -6,6 +6,7 @@ ruby File.read('.ruby-version').strip
 gem "rails", "~> 7.0.6"
 
 gem "cssbundling-rails"
+gem 'devise', '~> 4.9', '>= 4.9.2'
 gem 'draper', '~> 4.0', '>= 4.0.2'
 gem "jbuilder"
 gem "jsbundling-rails"
@@ -53,6 +54,7 @@ group :development do
   gem 'i18n-tasks', '~> 1.0', '>= 1.0.12'
   gem 'listen', '~> 3.8'
   gem 'rails_best_practices', '~> 1.23', '>= 1.23.2'
+  gem "rails_live_reload"
   gem 'readapt'
   gem 'reek', '~> 6.1', '>= 6.1.4'
   gem 'rubocop-rails', '~> 2.20', '>= 2.20.2'
@@ -70,3 +72,6 @@ group :test do
   gem "webdrivers"
   gem 'webmock', '~> 3.18', '>= 3.18.1'
 end
+
+gem "tailwindcss-rails", "~> 2.0"
+gem 'devise-tailwindcssed', '~> 0.1.5'
