@@ -1,0 +1,42 @@
+{
+  "cSpell.words": [],
+  "restoreTerminals.terminals": [
+    {
+      "splitTerminals": [
+        {
+          "name": "Server",
+          "icon": "server",
+          "color": "Green",
+          "commands": ["bin/dev"]
+        }
+      ]
+    },
+    {
+      "splitTerminals": [
+        {
+          "name": "GitHub",
+          "icon": "github",
+          "color": "mangenta"
+        }
+      ]
+    },
+    {
+      "splitTerminals": [
+        {
+          "name": "Console",
+          "icon": "circuit-board",
+          "color": "blue",
+          "commands": ["rails c"]
+        }
+      ]
+    } //,
+    // {
+    //   "splitTerminals": [
+    //     {
+    //       "name": "Test",
+    //       "commands": ["bundle exec rspec"]
+    //     }
+    //   ]
+    // }
+  ]
+}
