@@ -29,6 +29,19 @@
           "commands": ["rails c"]
         }
       ]
+    },
+    {
+      "splitTerminals": [
+        {
+          "name": "Tailwind",
+          "icon": "eye-watch",
+          "color": "yellow",
+          "commands": [
+            "open -a 'Google Chrome' http://localhost:3000",
+            "npx tailwindcss -i app/assets/stylesheets/application.tailwind.css -o app/assets/build/tailwind.css --watch"
+          ]
+        }
+      ]
     } //,
     // {
     //   "splitTerminals": [
